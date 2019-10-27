@@ -13,4 +13,7 @@ def hermitian(A, **kwargs):
 T = np.transpose
 H = hermitian
 
-print(H, np.zeros(4))
+# print(H, np.zeros(4))
+
+a = [1, 2, 3]
+print(np.mean(a == [2, 2, 3]))
