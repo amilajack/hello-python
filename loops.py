@@ -1,5 +1,5 @@
-for item in range(5):
-    print(item)
+for idx in range(5):
+    print(idx)
 
 for set_item in {'foo', 'bar', 'baz'}:
     print(set_item)
