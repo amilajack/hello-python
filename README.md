@@ -9,4 +9,6 @@ A repo for all my python related learnings
 git clone https://github.com/amilajack/hello-python
 cd hello-python
 poetry install
+peotry shell
+python loops.py
 ```
