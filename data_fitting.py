@@ -56,8 +56,8 @@ polyfit = np.poly1d(np.polyfit(x, y, 4))
 plt.plot(x,polyfit(x), label='4th Degree Polynomial')
 
 
-def trig_poly_fit(x_, a0, a1, a2, a3, b1, b2):
-    return a0/2+(a3/2)*np.cos(3*x_)+a1*np.cos(x_)+a2*np.cos(2*x_)+b1*np.sin(x_)+b2*np.sin(2*x_)
+def trig_poly_fit(x, a0, a1, a2, a3, b1, b2):
+    return a0/2+(a3/2)*np.cos(3*x)+a1*np.cos(x)+a2*np.cos(2*x)+b1*np.sin(x)+b2*np.sin(2*x)
 
 # Plot trigonometric fit
 params, params_covariance = optimize.curve_fit(trig_poly_fit, x, y)
